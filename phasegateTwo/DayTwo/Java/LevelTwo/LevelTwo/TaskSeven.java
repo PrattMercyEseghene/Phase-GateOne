@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class TaskSeven{
+public static void main(String[]args){
+Scanner inputCollector = new Scanner(System.in){
+System.out.println("Enter a password");
+
+String password = inputCollector.nextLine();
+
+if(password.equals("admin123")){
+
+System.out.println("matches");
+}
+else{
+
+System.out.println("invalid");
+}
+}
+}
+}
+
+
+
