@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class TaskSix{
+public static void main(String[]args){
+Scanner inputCollector = new Scanner(System.in);
+System.out.println("Enter a number");
+int number = inputCollector.nextInt();
+
+int sum =0;
+for(int count = 1; count<=number; count++){
+
+sum+=count;
+
+//System.out.println(sum);
+}
+System.out.println(sum);
+}
+}
